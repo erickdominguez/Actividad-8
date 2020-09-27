@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Actividad 8</title>
+     
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+        <script src='script.js'></script>
+    </head>
+    <body>
+        <form class="segment">
+            <label for="nombre">Nombre:</label>
+            <input class="in" type="text"  name="nom" id="nom"><br>
+            <input type="radio" name="gen" id="gen" value="Hombre", onclick="document.getElementById('gen').value='Hombre'">
+            <label for="H">Hombre</label><br>
+            <input type="radio" name="gen" id="gen" value="Mujer", onclick="document.getElementById('gen').value='Mujer'">
+            <label for="M">Mujer</label><br>
+        </form>
+        <button onclick="document.getElementById('hey').innerHTML=bienvenute();">Hecho</button>
+        <p id="hey"></p>
+        
+        
+    </body>
+</html>
